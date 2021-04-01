@@ -11,21 +11,37 @@
     
     - Both create a file .json with the data.
     - Summoner method create a resume in .txt :information_desk_person:
+       
         [+]Name: 
+       
             Level: 
+       
             champ with mastery: 
+       
         [+]Champ with most mastery:
+       
             Name: 
+       
             Level: 
+       
             Points: 
+       
             Chest?: 
+       
             Last time played: 
+       
             [+]Info extra:
+       
                 Title: 
+       
                 Blurb: 
+       
                 Tags: 
+       
                 Partype: 
+       
                 Stats: 
+    
     - Summoner file :ok_woman:
         {
             "_name": ,
@@ -46,12 +62,18 @@
         }
 
     - Champion file: :baby_chick:
+       
         "type": ,
+       
         "format": ,
+       
         "version": ,
+       
         "data": {
-            
+
+
+       
         }
 
 - apiCaller.py :speech_balloon:
-    Simple get and post.
+    - Simple get and post.
