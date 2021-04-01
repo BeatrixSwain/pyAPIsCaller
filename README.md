@@ -43,21 +43,38 @@
                 Stats: 
     
     - Summoner file :ok_woman:
+        
         {
+        
             "_name": ,
+        
             "_id": ,
+        
             "_level": ,
+        
             "_champions": [
+        
                     {}
+        
                 ],
+        
             "_mostMasteryChamp": {
-                 "id": 50,
-                "level": 7,
-                "points": 474042,
-                "chest": true,
-                "lastTimePlayed": "24/03/2021 01:29:44",
-                "name": "Swain",
+        
+                 "id": ,
+        
+                "level": ,
+        
+                "points": ,
+        
+                "chest": ,
+        
+                "lastTimePlayed": ,
+        
+                "name": ,
+        
+        
                 "infoExtra": {}
+        
             }
         }
 
