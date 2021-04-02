@@ -93,4 +93,17 @@
         }
 
 - apiCaller.py :speech_balloon:
-    - Simple get and post.
+    - Examples:
+        - GET :point_up:
+        - POST :point_down:
+        - PUT :point_left:
+        - DELETE :point_right:
+        - RECEIVE FILES :camera:
+        - Test pokeapi: get pokemon list :bug:
+        - oAuth github.
+            - first step
+            - second step - get access token
+            - get list repositories authenticated users :star2:
+            - create repository :fire:
+        - cookies :cookie:
+        - sesion :white_check_mark:

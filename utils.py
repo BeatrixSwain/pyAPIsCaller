@@ -63,3 +63,31 @@ def getDdragonPath():
     except Exception as ex:        
         print(f"{ex}")
         return None
+
+
+def rootPokeApi():
+    try:
+        config = ConfigParser()
+        config.read("conf.ini")
+        return config['POKEAPI']['PATHROOT']
+    except Exception as ex:        
+        print(f"{ex}")
+        return None        
+
+def gettingSecretsSHH():
+    try:
+        config = ConfigParser()
+        config.read("auth.key")
+        return config['HUBBY']['client'], config['HUBBY']['secret']
+    except Exception as ex:        
+        print(f"{ex}")
+        return None, None   
+
+def getTokenTEMP():
+    try:
+        config = ConfigParser()
+        config.read("auth.key")
+        return config['HUBBY']['token']
+    except Exception as ex:        
+        print(f"{ex}")
+        return None   
